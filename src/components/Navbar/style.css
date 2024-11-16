@@ -1,0 +1,26 @@
+.navbar {
+  @apply h-16 flex bg-black text-white
+}
+
+.nav-logo {
+  @apply w-[5%] h-12 rounded-md border border-white flex justify-center items-center
+}
+
+ul.nav-icons  {
+  @apply w-[35%] h-full flex justify-between items-center
+}
+
+ul.nav-icons li {
+  @apply bg-transparent dark:hover:bg-gray-900 hover:cursor-pointer px-6 py-2 rounded-sm border border-transparent transition duration-300 ease-in-out
+}
+
+ul.nav-icons li p {
+  @apply bg-transparent  h-[80%]   
+}
+
+.nav-others-actions {
+  @apply flex justify-center items-center
+}
+.nav-others-actions span {
+  @apply bg-gray-900 rounded-full px-4 py-2 hover:cursor-pointer hover:border-white hover:border-2 border-2 border-transparent ease-in-out transition duration-300
+}

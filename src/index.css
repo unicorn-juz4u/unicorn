@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.auth_card {
+  @apply w-8/12 mx-auto border-black border
+}
+
+.auth_card h3 {
+  @apply text-blue-700 text-2xl text-center
+}
+
+span.active {
+  @apply text-blue-500 hover:underline
+}
+:root {
+  @apply bg-white dark:bg-gray-900 text-black dark:text-white
+}
